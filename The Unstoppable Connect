@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unstoppable Connect - Page 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+    }
+    .container {
+      padding: 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .form-section {
+      margin-bottom: 2rem;
+    }
+    .form-section h3 {
+      color: #007BFF;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 0.5rem;
+    }
+    .share-follow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 1rem 0 2rem 0;
+    }
+    .share-follow a {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .tiktok { background: #000; }
+    .facebook { background: #3b5998; }
+    .twitter { background: #1da1f2; }
+    .instagram { background: #e1306c; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Share & Follow Buttons -->
+    <div class="share-follow">
+      <a class="tiktok" href="https://www.tiktok.com/@yourhandle" target="_blank">Follow on TikTok</a>
+      <a class="facebook" href="https://www.facebook.com/yourhandle" target="_blank">Follow on Facebook</a>
+      <a class="twitter" href="https://twitter.com/yourhandle" target="_blank">Follow on Twitter</a>
+      <a class="instagram" href="https://instagram.com/yourhandle" target="_blank">Follow on Instagram</a>
+    </div>
+
+    <!-- Job Travel Form -->
+    <div class="form-section">
+      <h3>Job Travel</h3>
+      <form onsubmit="alert('Job Travel form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Level of Education" name="education">
+        <input type="text" placeholder="Languages & Proficiency" name="language">
+        <input type="text" placeholder="Home Country" name="country">
+        <select name="passport">
+          <option value="">Passport Available?</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <select name="marital">
+          <option value="">Marital Status</option>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+        </select>
+        <textarea placeholder="Address & Contact Info" name="contact"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Job Seeker Form -->
+    <div class="form-section">
+      <h3>Job Seeker</h3>
+      <form onsubmit="alert('Job Seeker form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Level of Education" name="education">
+        <textarea placeholder="Address" name="address"></textarea>
+        <textarea placeholder="Brief Job Experience" name="experience"></textarea>
+        <input type="file" name="cv">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Single Spouses Form -->
+    <div class="form-section">
+      <h3>Single Spouses</h3>
+      <form onsubmit="alert('Single Spouses form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Religion" name="religion">
+        <input type="text" placeholder="Ethnic Group" name="ethnicGroup">
+        <textarea placeholder="What you're looking for" name="lookingFor"></textarea>
+        <textarea placeholder="Comments" name="comments"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unstoppable Connect - Page 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+    }
+    .container {
+      padding: 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .form-section {
+      margin-bottom: 2rem;
+    }
+    .form-section h3 {
+      color: #007BFF;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 0.5rem;
+    }
+    .share-follow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 1rem 0 2rem 0;
+    }
+    .share-follow a {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .tiktok { background: #000; }
+    .facebook { background: #3b5998; }
+    .twitter { background: #1da1f2; }
+    .instagram { background: #e1306c; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Share & Follow Buttons -->
+    <div class="share-follow">
+      <a class="tiktok" href="https://www.tiktok.com/@yourhandle" target="_blank">Follow on TikTok</a>
+      <a class="facebook" href="https://www.facebook.com/yourhandle" target="_blank">Follow on Facebook</a>
+      <a class="twitter" href="https://twitter.com/yourhandle" target="_blank">Follow on Twitter</a>
+      <a class="instagram" href="https://instagram.com/yourhandle" target="_blank">Follow on Instagram</a>
+    </div>
+
+    <!-- Job Travel Form -->
+    <div class="form-section">
+      <h3>Job Travel</h3>
+      <form onsubmit="alert('Job Travel form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Level of Education" name="education">
+        <input type="text" placeholder="Languages & Proficiency" name="language">
+        <input type="text" placeholder="Home Country" name="country">
+        <select name="passport">
+          <option value="">Passport Available?</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <select name="marital">
+          <option value="">Marital Status</option>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+        </select>
+        <textarea placeholder="Address & Contact Info" name="contact"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Job Seeker Form -->
+    <div class="form-section">
+      <h3>Job Seeker</h3>
+      <form onsubmit="alert('Job Seeker form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Level of Education" name="education">
+        <textarea placeholder="Address" name="address"></textarea>
+        <textarea placeholder="Brief Job Experience" name="experience"></textarea>
+        <input type="file" name="cv">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Single Spouses Form -->
+    <div class="form-section">
+      <h3>Single Spouses</h3>
+      <form onsubmit="alert('Single Spouses form submitted!'); return false;">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="text" placeholder="Religion" name="religion">
+        <input type="text" placeholder="Ethnic Group" name="ethnicGroup">
+        <textarea placeholder="What you're looking for" name="lookingFor"></textarea>
+        <textarea placeholder="Comments" name="comments"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
